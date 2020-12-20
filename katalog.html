@@ -1,17 +1,19 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<title>BUWATIQ - Toko Boutique Batik Terkemuka di Purbalingga</title>
+	<title>BWATIQ - Katalog Produk</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="assets/fonts/fontawesome/css/all.css">
 </head>
 <body>
 	
-	<nav class="navbar navbar-expand-md pd-container">
+	<nav class="navbar navbar-expand-md pd-container shd">
 		<a class="navbar-brand" href="#">
-			<img class="img-fluid" src="assets/images/logo.png" style="height: 80px">
+			<img class="img-fluid" src="assets/images/logo.png">
 		</a>
 		<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-nav">
 			<span class="navbar-toggler-icon"></span>
@@ -28,15 +30,237 @@
 					<a class="nav-link active-nav" href="/">Catalogue</a>
 				</li>
 				<li class="nav-item">
-					<a class="btn btn-link nav-link" href="#">Account</a>
+					<a class="btn btn-link nav-link" href="login.html">Account</a>
+
 				</li>
 			</ul>
 		</div>
 	</nav>
+	<div class="menu-container brown0b pd-container">
+		<div class="container-fluid breadcumb">
+			<div class="float-left">
+				<p class="title-bread">KATALOG PRODUK</p>
+			</div>
+			<div class="float-right">
+				<nav aria-label="breadcrumb">
+				  <ol class="breadcrumb">
+				    <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i>Beranda</a></li>
+				    <li class="breadcrumb-item active" aria-current="page">Catalogue</li>
+				  </ol>
+				</nav>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+
 	<div class="menu-container bg-white pd-container">
-		<div class="container-fluid katalogi-daftar">
-			
+		<div class="container-fluid katalog-daftar">
 			<div class="row">
+				<div class="col-md-9">
+				<div class="form-atas bg-light">
+				 	<div class="float-left navbar">
+						  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropBtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    Filter <i class="fa fa-filter"></i>
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropBtn">
+						    <a class="dropdown-item" href="#">Harga Termurah</a>
+						    <a class="dropdown-item" href="#">Harga Termahal</a>
+						    <a class="dropdown-item" href="#">Merk Ternama</a>
+						  </div>
+					</div>
+					<div class="float-right navbar">
+						<div class="input-group">
+						  <input type="text" class="form-control" placeholder="Cari produk" aria-label="Cari Produk">
+						  <div class="input-group-append">
+						    <button class="btn btn-outline-secondary" type="button">Cari</button>
+						  </div>
+						</div>
+					</div>
+				 	<div class="clear"></div>
+				</div>
+				<div id="artikel">
+					<div class="card">
+						<img src="assets/images/prod1a.png" class="img-fluid" alt="artikel 1">
+						<div class="card-feature brown0b">
+                           		<h4 class="float-left text-white">KEMEJA SOLO</h4>
+                           		<a href="" class="float-right text-right">
+                    				<i class="fa fa-heart"></i>
+                    			</a>
+                    			<div class="clear"></div>
+                    		</div>
+						<div class="card-body">
+							<small class="text-muted">Kemeja batik print bernuansa klasik untuk formal look yang...</small>
+							<div class="row">
+                            	<p class="col-6"><b>Rp.78.000</b></p>
+                            	<p class="col-6 text-right text-muted">Batik SOLO</p>
+                            </div>
+                            <a class="btn btn-outline-warning">Buy</a>
+							<a class="btn brown2 text-white float-right" href="produk_detail.html">DETAIL <i class="fa fa-eye"></i></a>
+						</div>
+					</div>
+					<div class="card">
+						<img src="assets/images/prod2a.png" class="img-fluid" alt="artikel 1">
+						<div class="card-feature brown0b">
+                           		<h4 class="float-left text-white">KEMEJA SOLO</h4>
+                           		<a href="" class="float-right text-right">
+                    				<i class="fa fa-heart"></i>
+                    			</a>
+                    			<div class="clear"></div>
+                    		</div>
+						<div class="card-body">
+							<small class="text-muted">Kemeja batik print bernuansa klasik untuk formal look yang...</small>
+							<div class="row">
+                            	<p class="col-6"><b>Rp.78.000</b></p>
+                            	<p class="col-6 text-right text-muted">Batik SOLO</p>
+                            </div>
+                            <a class="btn btn-outline-warning">Buy</a>
+							<a class="btn brown2 text-white float-right" href="produk_detail.html">DETAIL <i class="fa fa-eye"></i></a>
+						</div>
+					</div>
+					<div class="card">
+						<img src="assets/images/prod3a.png" class="img-fluid" alt="artikel 1">
+						<div class="card-feature brown0b">
+                           		<h4 class="float-left text-white">KEMEJA SOLO</h4>
+                           		<a href="" class="float-right text-right">
+                    				<i class="fa fa-heart"></i>
+                    			</a>
+                    			<div class="clear"></div>
+                    		</div>
+						<div class="card-body">
+							<small class="text-muted">Kemeja batik print bernuansa klasik untuk formal look yang...</small>
+							<div class="row">
+                            	<p class="col-6"><b>Rp.78.000</b></p>
+                            	<p class="col-6 text-right text-muted">Batik SOLO</p>
+                            </div>
+                            <a class="btn btn-outline-warning">Buy</a>
+							<a class="btn brown2 text-white float-right" href="produk_detail.html">DETAIL <i class="fa fa-eye"></i></a>
+						</div>
+					</div>
+					<div class="card">
+						<img src="assets/images/prod3a.png" class="img-fluid" alt="artikel 1">
+						<div class="card-feature brown0b">
+                           		<h4 class="float-left text-white">KEMEJA SOLO</h4>
+                           		<a href="" class="float-right text-right">
+                    				<i class="fa fa-heart"></i>
+                    			</a>
+                    			<div class="clear"></div>
+                    		</div>
+						<div class="card-body">
+							<small class="text-muted">Kemeja batik print bernuansa klasik untuk formal look yang...</small>
+							<div class="row">
+                            	<p class="col-6"><b>Rp.78.000</b></p>
+                            	<p class="col-6 text-right text-muted">Batik SOLO</p>
+                            </div>
+                            <a class="btn btn-outline-warning">Buy</a>
+							<a class="btn brown2 text-white float-right" href="produk_detail.html">DETAIL <i class="fa fa-eye"></i></a>
+						</div>
+					</div>
+					<div class="card">
+						<img src="assets/images/prod3a.png" class="img-fluid" alt="artikel 1">
+						<div class="card-feature brown0b">
+                           		<h4 class="float-left text-white">KEMEJA SOLO</h4>
+                           		<a href="" class="float-right text-right">
+                    				<i class="fa fa-heart"></i>
+                    			</a>
+                    			<div class="clear"></div>
+                    		</div>
+						<div class="card-body">
+							<small class="text-muted">Kemeja batik print bernuansa klasik untuk formal look yang...</small>
+							<div class="row">
+                            	<p class="col-6"><b>Rp.78.000</b></p>
+                            	<p class="col-6 text-right text-muted">Batik SOLO</p>
+                            </div>
+                            <a class="btn btn-outline-warning">Buy</a>
+							<a class="btn brown2 text-white float-right" href="produk_detail.html">DETAIL <i class="fa fa-eye"></i></a>
+						</div>
+					</div>
+					<div class="card">
+						<img src="assets/images/prod2a.png" class="img-fluid" alt="artikel 1">
+						<div class="card-feature brown0b">
+                           		<h4 class="float-left text-white">KEMEJA SOLO</h4>
+                           		<a href="" class="float-right text-right">
+                    				<i class="fa fa-heart"></i>
+                    			</a>
+                    			<div class="clear"></div>
+                    		</div>
+						<div class="card-body">
+							<small class="text-muted">Kemeja batik print bernuansa klasik untuk formal look yang...</small>
+							<div class="row">
+                            	<p class="col-6"><b>Rp.78.000</b></p>
+                            	<p class="col-6 text-right text-muted">Batik SOLO</p>
+                            </div>
+                            <a class="btn btn-outline-warning">Buy</a>
+							<a class="btn brown2 text-white float-right" href="produk_detail.html">DETAIL <i class="fa fa-eye"></i></a>
+						</div>
+					</div>
+					<div class="card">
+						<img src="assets/images/prod2a.png" class="img-fluid" alt="artikel 1">
+						<div class="card-feature brown0b">
+                           		<h4 class="float-left text-white">KEMEJA SOLO</h4>
+                           		<a href="" class="float-right text-right">
+                    				<i class="fa fa-heart"></i>
+                    			</a>
+                    			<div class="clear"></div>
+                    		</div>
+						<div class="card-body">
+							<small class="text-muted">Kemeja batik print bernuansa klasik untuk formal look yang...</small>
+							<div class="row">
+                            	<p class="col-6"><b>Rp.78.000</b></p>
+                            	<p class="col-6 text-right text-muted">Batik SOLO</p>
+                            </div>
+                            <a class="btn btn-outline-warning">Buy</a>
+							<a class="btn brown2 text-white float-right" href="produk_detail.html">DETAIL <i class="fa fa-eye"></i></a>
+						</div>
+					</div>
+					<div class="card">
+						<img src="assets/images/prod2a.png" class="img-fluid" alt="artikel 1">
+						<div class="card-feature brown0b">
+                           		<h4 class="float-left text-white">KEMEJA SOLO</h4>
+                           		<a href="" class="float-right text-right">
+                    				<i class="fa fa-heart"></i>
+                    			</a>
+                    			<div class="clear"></div>
+                    		</div>
+						<div class="card-body">
+							<small class="text-muted">Kemeja batik print bernuansa klasik untuk formal look yang...</small>
+							<div class="row">
+                            	<p class="col-6"><b>Rp.78.000</b></p>
+                            	<p class="col-6 text-right text-muted">Batik SOLO</p>
+                            </div>
+                            <a class="btn btn-outline-warning">Buy</a>
+							<a class="btn brown2 text-white float-right" href="produk_detail.html">DETAIL <i class="fa fa-eye"></i></a>
+						</div>
+					</div>
+					<div class="card">
+						<img src="assets/images/prod2a.png" class="img-fluid" alt="artikel 1">
+						<div class="card-feature brown0b">
+                           		<h4 class="float-left text-white">KEMEJA SOLO</h4>
+                           		<a href="" class="float-right text-right">
+                    				<i class="fa fa-heart"></i>
+                    			</a>
+                    			<div class="clear"></div>
+                    		</div>
+						<div class="card-body">
+							<small class="text-muted">Kemeja batik print bernuansa klasik untuk formal look yang...</small>
+							<div class="row">
+                            	<p class="col-6"><b>Rp.78.000</b></p>
+                            	<p class="col-6 text-right text-muted">Batik SOLO</p>
+                            </div>
+                            <a class="btn btn-outline-warning">Buy</a>
+							<a class="btn brown2 text-white float-right" href="produk_detail.html">DETAIL <i class="fa fa-eye"></i></a>
+						</div>
+					</div>
+				</div>
+				<ul class="pagination float-right">
+					<li class="page-item active"><a href="#" class="page-link">1</a></li>
+					<li class="page-item"><a href="#" class="page-link">2</a></li>
+					<li class="page-item"><a href="#" class="page-link">3</a></li>
+					<li class="page-item"><a href="#" class="page-link">4</a></li>
+					<li class="page-item disabled"><a href="#" class="page-link">...</a></li>
+					<li class="page-item"><a href="#" class="page-link">Next</a></li>
+					<li class="page-item"><a href="#" class="page-link">Last</a></li>
+				</ul>
+			</div>
 				<div class="col-md-3">
 				<div id="sidebar">
 					<div class="card" style="width: 100%;">
@@ -94,70 +318,7 @@
 					
 				</div>
 			</div>
-				<div class="col-md-9">
-				<div id="artikel">
-					<div class="card">
-						<img src="assets/images/prod1a.png" class="img-fluid" alt="artikel 1">
-						<div class="card-body">
-							<a href="#" class="card-post-link">Batik Mahal Januari</a>
-							<p>Kami melayani pendidikan dibidang perikanan. Lorem ipsum dolor sit amet... </p>
-							<a class="btn bg-dark text-white" href="artikel_detail.html">Read More</a>
-						</div>
-					</div>
-					<div class="card">
-						<img src="assets/images/prod1a.png" class="img-fluid" alt="artikel 1">
-						<div class="card-body">
-							<a href="#" class="card-post-link">Batik Mahal Januari</a>
-							<p>Kami melayani pendidikan dibidang perikanan. Lorem ipsum dolor sit amet... </p>
-							<a class="btn bg-dark text-white" href="artikel_detail.html">Read More</a>
-						</div>
-					</div>
-					<div class="card">
-						<img src="assets/images/prod1a.png" class="img-fluid" alt="artikel 1">
-						<div class="card-body">
-							<a href="#" class="card-post-link">Batik Mahal Januari</a>
-							<p>Kami melayani pendidikan dibidang perikanan. Lorem ipsum dolor sit amet... </p>
-							<a class="btn bg-dark text-white" href="artikel_detail.html">Read More</a>
-						</div>
-					</div>
-					<div class="card">
-						<img src="assets/images/prod1a.png" class="img-fluid" alt="artikel 1">
-						<div class="card-body">
-							<a href="#" class="card-post-link">Batik Mahal Januari</a>
-							<p>Kami melayani pendidikan dibidang perikanan. Lorem ipsum dolor sit amet... </p>
-							<a class="btn bg-dark text-white" href="artikel_detail.html">Read More</a>
-						</div>
-					</div>
-					<div class="card">
-						<img src="assets/images/prod1a.png" class="img-fluid" alt="artikel 1">
-						<div class="card-body">
-							<a href="#" class="card-post-link">Batik Mahal Januari</a>
-							<p>Kami melayani pendidikan dibidang perikanan. Lorem ipsum dolor sit amet... </p>
-							<a class="btn bg-dark text-white" href="artikel_detail.html">Read More</a>
-						</div>
-					</div>
-					<div class="card">
-						<img src="assets/images/prod1a.png" class="img-fluid" alt="artikel 1">
-						<div class="card-body">
-							<a href="#" class="card-post-link">Batik Mahal Januari</a>
-							<p>Kami melayani pendidikan dibidang perikanan. Lorem ipsum dolor sit amet... </p>
-							<a class="btn bg-dark text-white" href="artikel_detail.html">Read More</a>
-						</div>
-					</div>
-					
-
-				</div>
-				
-				<ul class="pagination">
-					<li class="page-item active"><a href="#" class="page-link">1</a></li>
-					<li class="page-item"><a href="#" class="page-link">2</a></li>
-					<li class="page-item"><a href="#" class="page-link">3</a></li>
-					<li class="page-item"><a href="#" class="page-link">4</a></li>
-					<li class="page-item disabled"><a href="#" class="page-link">...</a></li>
-					<li class="page-item"><a href="#" class="page-link">Next</a></li>
-					<li class="page-item"><a href="#" class="page-link">Last</a></li>
-				</ul>
-				</div>
+			
 		</div>
 	</div>
 	</div>
@@ -189,12 +350,13 @@
 					<h4>Pesan</h4>
 					<form class="">
 					  <div class="form-row">
-					  	<div class="form-group col-md-6">
+					  	<div class="form-group col-md-12 col-lg-6">
 					      <input type="text" class="form-control" id="nama" placeholder="Nama">
 					    </div>
-					    <div class="form-group col-md-6">
+					    <div class="form-group col-md-12 col-lg-6">
 					      <input type="email" class="form-control" id="email" placeholder="Email">
 					    </div>
+
 					    
 					  </div>
 					  <div class="form-group">
@@ -218,4 +380,3 @@
 <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>
-<!-- Berbagai pilihan batik kesayangan anda<br/>kini hadir di BwatiQ Store -->
